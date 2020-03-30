@@ -4,7 +4,7 @@ import com.sln.hostels.model.PayingGuest;
 import org.springframework.stereotype.Component;
 
 @Component
-public class AddPayingGuestService {
+public class AddPayingGuestService implements SLNServiceInterface {
 
     /**
      * This holds the paying guest details and makes req to DB for persists
